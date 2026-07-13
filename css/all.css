@@ -271,7 +271,7 @@ a:hover{
 }
 
 .footer{
-    background-color: var(#F8F9FA);
+    background-color: var(--neutral-100);
 }
 
 .copyright{
