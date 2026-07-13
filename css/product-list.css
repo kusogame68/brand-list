@@ -1,0 +1,35 @@
+.last-page{
+    color: var(--neutral-600);
+}
+
+.breadcrumb + .breadcrumb::before{
+    content: "/";
+    padding: 0 12px;
+    color: var(--neutral-300);
+    font-weight: 700;
+}
+
+.class-list li a{
+    width: 172px;
+}
+
+.class-list-select{
+    color: var(--primary-400);
+}
+
+.card{
+    max-width: 342.67px;
+}
+
+.card-img{
+    width: 100%;
+}
+
+.page-selector ul li{
+    width: 40px;
+    text-align: center;
+}
+
+.page-select{
+    background-color: var(--primary-300);
+}

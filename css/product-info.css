@@ -1,0 +1,104 @@
+.product-imgs{
+    max-width: 746px;
+}
+
+.img{
+    width: 369px;
+}
+
+.img img{
+    width: 100%;
+}
+
+.product-details{
+    max-width: 526px;
+}
+
+.on-sale{
+    color: var(--primary-400);
+}
+
+.source-price{
+    font-size: 14px;
+    color: var(--neutral-500);
+    text-decoration: line-through;
+}
+
+.color-select .card{
+    max-width: 64px;
+}
+
+.color-select .card p{
+    color: var(--neutral-600);
+    text-align: center;
+}
+
+.size-btn{
+    background-color: transparent;
+    border: 1px solid var(--neutral-300);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 5%;
+    padding: var(--spacing-s) var(--spacing-l);
+    border-radius: 4px;
+    width: 160px;
+}
+
+.size-btn:not(:disabled){
+    color: var(--neutral-900);
+    cursor: pointer;
+}
+
+.size-btn.active,
+.size-btn:not(:disabled):hover{
+    border: 1px solid var(--neutral-900);
+}
+
+.in-stock{
+    font-size: 14px;
+    color: var(--danger-300);
+}
+
+.collect-btn, .reserve-btn{
+    width: calc((100% - 8px) / 2);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 5%;
+    border-radius: 4px;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.collect-btn{
+    background-color: var(--white-color);
+}
+
+.reserve-btn{
+    color: var(--white-color);
+    background-color: var(--neutral-900);
+}
+
+.collect-btn:hover,
+.reserve-btn:hover{
+    background-color: var(--primary-400);
+    color: var(--white-color)
+}
+
+
+.notice-content{
+    color: var(--neutral-600);
+}
+
+.p95{
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+}
+
+.recommend .card{
+    width: 306px;
+}
+
+.color-select .card img,
+.recommend .card img{
+    width: 100%;
+}
