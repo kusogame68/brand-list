@@ -23,7 +23,7 @@
     box-sizing: border-box;
 }
 
-body, a{
+body{
     font-family: "Noto Sans", sans-serif;
     color: var(--neutral-900);
     line-height: 1.5;
@@ -35,6 +35,7 @@ img{
 }
 
 a{
+    color: var(--neutral-900);
     display: block;
     text-decoration: none;
 }
@@ -115,8 +116,8 @@ a:hover{
 }
 
 .py-48{
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: var(--spacing-3xl);
+    padding-bottom: var(--spacing-3xl);
 }
 
 .py-225{
@@ -130,8 +131,8 @@ a:hover{
 }
 
 .py-8{
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: var(--spacing-xs);
+    padding-bottom: var(--spacing-xs);
 }
 
 .py-7{
@@ -140,32 +141,32 @@ a:hover{
 }
 
 .py-4{
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-top: var(--spacing-xxs);
+    padding-bottom: var(--spacing-xxs);
 }
 
 .pr-24{
-    padding-right: 24px;
+    padding-right: var(--spacing-l);
 }
 
 .p-16{
-    padding: 16px;
+    padding: var(--spacing-m);
 }
 
 .p-12{
-    padding: 12px;
+    padding: var(--spacing-s);
 }
 
 .mb-48{
-    margin-bottom: 48px;
+    margin-bottom: var(--spacing-3xl);
 }
 
 .mt-48{
-    margin-top: 48px;
+    margin-top: var(--spacing-3xl);
 }
 
 .mt-40{
-    margin-top: 40px;
+    margin-top: var(--spacing-2xl);
 }
 
 .mb-32{
@@ -228,7 +229,7 @@ a:hover{
     font-family: "Mina", sans-serif;;
     font-size: 20px;
     letter-spacing: 4.4%;
-    padding: 8px 12px;
+    padding: var(--spacing-xs) var(--spacing-s);
 }
 
 .dot{
@@ -259,6 +260,7 @@ a:hover{
     border-radius: 4px;
     line-height: 1.5;
     letter-spacing: 5%;
+    cursor: pointer;
 }
 
 .join-btn:hover{
